@@ -1,2 +1,6 @@
-# Hello-world-
-Hello,world!
+# Проект Дразнилки
+
+Учебный!
+
+Изучаем javascript.
+
