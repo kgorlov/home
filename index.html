@@ -4,7 +4,7 @@
 
 <h1>
 <script>
-    var randomBodyPartsAn = ["хвост", "тело", "уши", "ноги"];
+    var randomBodyPartsAns = ["хвост", "тело", "уши", "ноги"];
     var randomBodyParts = ["глаз", "нос", "череп", "лицо","рука","нога","тело"];
     var randomAdjectives = ["вонючая", "унылая", "дурацкая", "прекрасная", "грязная"];
     var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса", "рыба", "макака", "ворона"];
@@ -22,7 +22,7 @@
     
 <h1>
  <script>
-     var randomBodyPartsAn = ["хвост", "тело", "уши", "ноги"];
+     var randomBodyPartsAns = ["хвост", "тело", "уши", "ноги"];
     var randomBodyParts = ["глаз", "нос", "череп", "лицо","рука","нога","тело"];
     var randomAdjectives = ["вонючая", "унылая", "дурацкая", "прекрасная", "грязная"];
     var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса", "рыба", "макака", "ворона"];
@@ -33,7 +33,9 @@
     // Выбор случайного слова из массива randomWords:
     var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
     // Соединяем случайные строки в предложение:
-    vvar randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " чем " + randomBodyPartsAn + randomWord + "!!!";
+    var randomBodyPartsAn = randomBodyPartsAns[Math.floor(Math.random() * randomBodyPartsAns.length)];
+
+    var randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " чем " + randomBodyPartsAn + randomWord + "!!!";
     document.write(randomInsult);
 </script>
 </h1>
