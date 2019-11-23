@@ -25,7 +25,7 @@
      var randomBodyPartsAns = ["хвост", "тело", "уши", "ноги"];
     var randomBodyParts = ["глаз", "нос", "череп", "лицо","рука","нога","тело"];
     var randomAdjectives = ["вонючая", "унылая", "дурацкая", "прекрасная", "грязная"];
-    var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса", "рыба", "макака", "ворона"];
+    var randomWords = ["мухи", "выдры", "мартышки", "крысы", "рыбы", "макаки", "вороны"];
     // Выбор случайной части тела из массива randomBodyParts:
     var randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
     // Выбор случайного прилагательного из массива randomAdjectives:
@@ -35,7 +35,7 @@
     // Соединяем случайные строки в предложение:
     var randomBodyPartsAn = randomBodyPartsAns[Math.floor(Math.random() * randomBodyPartsAns.length)];
 
-    var randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " чем " + randomBodyPartsAn + randomWord + "!!!";
+    var randomInsult = "У тебя " + randomBodyPart + " ещё более " + randomAdjective + " чем " + randomBodyPartsAn + " " randomWord + "!!!";
     document.write(randomInsult);
 </script>
 </h1>
